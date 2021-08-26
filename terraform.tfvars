@@ -1,5 +1,5 @@
-project_id = "REPLACE_ME"
-region     = "us-central1"
+# project_id = "pcc-dev-sandbox"
+# region     = "us-central1"
 
 
 
