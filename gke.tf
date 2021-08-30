@@ -15,11 +15,8 @@ variable "gke_num_nodes" {
 
 # GKE cluster
 resource "google_container_cluster" "primary" {
-<<<<<<< HEAD
   name     = "${var.project_id}-${var.id}-gke"
-=======
   name     = "${var.project_id}-gke-jroberts"
->>>>>>> 402d598393ed4d11c2507b67f4756f49bb5755e9
   location = var.region
   
   # We can't create a cluster with no node pool defined, but we want to only use
