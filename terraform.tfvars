@@ -1,7 +1,7 @@
- project_id = "pcc-dev-sandbox"
+ project_id = "yourproject"
  region     = "us-central1"
- gcp_credentials = "~/.config/gcloud/pcc-dev-sandbox-cb0099c02be1.json"
- id = "jroberts"
+ gcp_credentials = "~/<pathtotoken>.json"
+ id = "name"
 
 
 
