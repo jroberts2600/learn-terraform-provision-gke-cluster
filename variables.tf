@@ -7,7 +7,10 @@ variable "region" {
 }
 
 variable "gcp_credentials" {
-  type = string
   sensitive = true
   description = "GCP SA"
+}
+
+variable "id" {
+  description = "resource names"
 }
